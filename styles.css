@@ -1,0 +1,31 @@
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.skip-link:focus {
+  left: 10px;
+  top: 10px;
+  width: auto;
+  height: auto;
+  background: #fff;
+  padding: 8px;
+  z-index: 9999;
+  border: 2px solid #007BFF;
+}
+
+header svg {
+  vertical-align: middle;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  gap: 1rem;
+}
